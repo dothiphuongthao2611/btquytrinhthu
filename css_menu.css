@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('C:/xampp/htdocs/img/THUVIEN.png'); /* Thay 'your_image.jpg' bằng tên tệp hình ảnh thực sự */
+  background-size: cover; /* Đảm bảo hình ảnh phủ hết phần nền */
+  background-position: center; /* Căn giữa hình ảnh */
+  position: relative; /* Để vị trí tương đối cho hình ảnh */
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(19, 132, 150, 0.7); /* Màu nền của menu */
+  z-index: 1; /* Đặt độ sâu z-index để menu nằm trên hình ảnh */
+  position: relative; /* Để vị trí tương đối cho menu */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff; /* Màu chữ */
+  padding: 20px; /* Khoảng cách giữa các nút */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền khi hover */
+}
+
+.menu a:hover {
+  background-color: rgba(10, 110, 124, 0.7); /* Màu nền khi hover */
+}
+

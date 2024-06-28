@@ -1,0 +1,197 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Container style */
+.container {
+  max-width: 1200px;
+  margin: 130px auto; /* Căn giữa khung trên trang */
+  padding: 20px;
+  border-radius: 5px; /* Bo tròn các góc của khung */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiển thị bóng cho khung */
+}
+
+/* Heading style */
+.admin-heading {
+  margin-bottom: 20px;
+  text-align: center; /* Căn giữa */
+  font-weight: bold; /* In đậm */
+}
+
+/* Button style */
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary1 {
+  background-color: #007bff;
+}
+
+.btn-primary1:hover {
+  background-color: #0056b3;
+}
+.btn-primary {
+  background-color: #138496;
+  height: 35px;
+  width: 60px;
+  flex: 1; /* Chia đều không gian giữa các nút */
+  text-align: center; /* Căn giữa chữ trong nút */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn-danger,
+.btn-warning { /* Thay đổi màu cho các nút khác */
+  background-color: #17a2b8; /* Màu xanh nhạt */
+}
+
+.btn-danger:hover,
+.btn-warning:hover {
+  background-color: #138496; /* Màu xanh nhạt khi hover */
+}
+
+/* Table style */
+.content-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-right: auto; /* Dịch về phía bên phải của bảng */
+}
+
+.content-table th,
+.content-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.content-table th {
+  background-color: #f2f2f2;
+  text-align: center; /* Căn giữa tiêu đề cột */
+}
+
+.content-table th:first-child,
+.content-table td:first-child {
+  text-align: center;
+}
+
+.content-table td {
+  vertical-align: middle;
+}
+
+/* Add button style */
+.add-button {
+  float: right; /* Dịch về phía bên phải */
+  margin-bottom: 20px; /* Khoảng cách dưới cùng */
+  background-color: #138496;
+}
+
+/* Button container style */
+.button-container {
+  display: flex; /* Sử dụng flexbox */
+  justify-content: space-around; /* Căn các nút theo chiều ngang */
+  align-items: center; /* Căn các nút theo chiều dọc */
+}
+
+/* Button style */
+.button-container .btn {
+  flex: 1; /* Chia đều không gian giữa các nút */
+  margin: 0 5px; /* Khoảng cách giữa các nút */
+}
+
+/* Delete button style */
+.delete-button  {
+
+  background-color: #138496;
+  height: 35px;
+  width: 60px;
+  flex: 1; /* Chia đều không gian giữa các nút */
+
+}
+.btn-secondary {
+  background-color: #138496;
+  height: 35px;
+  width: 60px;
+  flex: 1; /* Chia đều không gian giữa các nút */
+  text-align: center; /* Căn giữa chữ trong nút */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-secondary1{
+  background-color: #138496;
+  height: 35px;
+  width: 60px;
+  flex: 1; /* Chia đều không gian giữa các nút */
+  text-align: center; /* Căn giữa chữ trong nút */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.delete-button:hover {
+  background-color: #138496;
+}
+/* Button container style */
+.button-container {
+  display: flex; /* Sử dụng flexbox */
+  justify-content: space-between; /* Căn các nút theo chiều ngang, chia đều khoảng cách */
+
+}
+
+/* Button container for actions */
+.action-button-container {
+  flex: 1; /* Chia đều không gian giữa các nút */
+
+}
+
+/* Button style for actions */
+.action-button-container .btn {
+  display: block; /* Hiển thị nút dưới dạng block */
+  width: 80%; /* Nút chiếm toàn bộ chiều rộng của container */
+  height: 30px;
+  margin-bottom:7px; /* Khoảng cách giữa các nút */
+
+
+}
+/* CSS */
+table {
+  width: 100%; /* Đảm bảo bảng chiếm toàn bộ độ rộng của phần tử cha */
+  border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+}
+
+th, td {
+  padding: 8px; /* Khoảng cách giữa nội dung và viền của ô */
+  text-align: center; /* Căn giữa nội dung trong ô */
+}
+
+/* Định dạng cho nút và input */
+.btn {
+  margin: 5px; /* Khoảng cách giữa các nút */
+}
+
+input {
+  width: 100%; /* Đảm bảo input chiếm toàn bộ width của ô */
+}
+
+
+
